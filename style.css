@@ -431,3 +431,17 @@ footer p {
     text-decoration: none;
   }
 }
+
+@media (max-width: 581px) {
+  .landing .heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .landing .arrow_text {
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 6rem;
+  }
+}
